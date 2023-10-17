@@ -1,0 +1,27 @@
+lista = [1,2,3,4,5,6,7,8,9,10]
+
+for num in lista:
+    if num == 5:
+        print("Número pertencente a lista")
+    else:
+        print("Número não pertencente a lista")
+
+
+soma = sum(lista)        
+    
+print(soma)
+
+
+
+
+
+lista = ["Banana, maça, uva, abacate, mamão"]
+
+for fruta in lista:
+    if fruta == "uva":
+        print("Fruta encontrada!")
+    else:
+        print("Fruta não encontrada!")
+
+soma = sum(lista) #somar os itens da lista
+sum(lista) / len #Somar os itens da lista e depois pegar a media
