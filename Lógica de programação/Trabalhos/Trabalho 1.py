@@ -3,7 +3,9 @@ def arquivo():
     while True:
         nome = input("Digite o nome do funcionario!\n")
 
-        if nome.isalpha():
+        if nome.isnumeric():
+            print("Números são invalidos, por favor digite somente letras.")
+        else:
             break
 
     while True:
