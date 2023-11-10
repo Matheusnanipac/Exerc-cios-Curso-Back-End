@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<h1>Formulário (INPUTS)</h1>
+	<label>Seu nome completo:</label>
+	<input type="text" name="nome" size="60" placeholder="Digite seu nome" value="" required="Campos obrigatorios não foram preenchidos"><br>
+	<input type="checkbox" name="Status"><label>Desativado</label>
+	<input type="checkbox" name="Status" checked="checked"><label>Padrão ativado</label><br>
+	<input type="radio" name=""><label>Radio Boton</label>
+	<input type="radio" name="" checked="checked"><label>Radio Boton padrão ativos</label>
+
+	<fieldset>
+		<legend>Radio Boton em grupo</legend>
+		<input type="radio" name=""><label>Opção 1</label>
+		<input type="radio" name=""><label>Opção 2</label>
+	</fieldset>
+	<label>Senha:</label><input type="password" name="">
+	<label>Anexo:</label><input type="file" name=""><br><br>
+	<button type="submit">enviar:</button>
+	<br><br>
+
+	<button type="button" onclick="alert('Olá Mundo!')">Clique me</button> <br><br>
+
+	<hr>
+	<br>
+
+	<form action="" method="GET"></form>
+			<label>Nome:</label>
+			<input type="text" name="Nome" placeholder="Digite seu nome completo"><br>
+			<label>Endereço:</label>
+			<input type="text" name="Endereço" placeholder="Endereço completo"><br>
+			<label>Numero:</label>
+			<input type="nunber" name="numero" placeholder="Digite o numero da sua residencia">
+			<fieldset>
+				<legend>Opções</legend>
+				<label>Opção 1</label>
+				<input type="radio" id="1" name="">
+				<label>Opção 2</label>
+				<input type="radio" id="2" name="">
+				<label>Opção 3</label>
+				<input type="radio" id="3" name="">
+			</fieldset>
+			<select name="Estados">
+					<option>Selecione</option>
+					<option value="RJ">RJ</option>
+					<option value="SP">SP</option>
+				</optgroup>
+			</select>
+			<input type="reset" name="">	
+			<input type="submit" name="Enviar" value="Enviar">
+
+		</form>
+
+</body>
+</html>
